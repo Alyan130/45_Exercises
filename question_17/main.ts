@@ -1,5 +1,5 @@
-let peoples=["Daniyal","Mawia","Zamad","Areeb","Murtuza"];
 console.log("I am able to invite only two peoples for dinner");
+let peoples=["Daniyal","Mawia","Zamad","Areeb","Murtuza"];
 peoples.push("Salman");
 let p1=peoples.pop();
 let p2=peoples.pop();
@@ -9,3 +9,8 @@ console.log(`Hello ${p1}, Sorry can't invite you for dinner tonight`);
 console.log(`Hello ${p2}, Sorry can't invite you for dinner tonight`);
 console.log(`Hello ${p3}, Sorry can't invite you for dinner tonight`);
 console.log(`Hello ${p4}, Sorry can't invite you for dinner tonight`);
+console.log(`Hello ${peoples[0]}, You are invited for dinner tonight`);
+console.log(`Hello ${peoples[1]}, You are invited for dinner tonight`);
+peoples.pop();
+peoples.pop();
+console.log(peoples);
