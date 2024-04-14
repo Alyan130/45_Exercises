@@ -1,2 +1,2 @@
-let list=["Football","Cricket","Hockey","Wrestling","Baseball"];
+let list=["Paris","Cricket","Urdu","Ak47","Indus"];
 console.log(list);
