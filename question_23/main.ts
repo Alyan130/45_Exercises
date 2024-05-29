@@ -39,3 +39,14 @@ console.log(number>6);
 //test10
 console.log("Is number <= 20? I predict True.");
 console.log(number <= 20);
+
+let on=true;
+let off=false;
+console.log("Is bulb on || off ? I predict false.");
+console.log(on || off);
+
+let day=false;
+let night=true;
+console.log("Is it day && night? I predict false.");
+console.log(day && night);
+
